@@ -1,0 +1,43 @@
+.login-container {
+    width: 400px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    font-size: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="password"], form input[type="submit"] {
+    font-size: inherit;
+    width: -webkit-fill-available;
+    padding: 5px 10px;
+}
+
+form input[type="submit"] {
+    background-color: #4cb050;
+    color: white;
+    border: 0;
+}
+
+form input[type="button"] {
+    background-color: #f24039;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.login-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    background-color: #f1f1f1;
+}

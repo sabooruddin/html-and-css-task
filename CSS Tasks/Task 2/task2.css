@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.vnav .item {
+    background-color: #add9e6;
+    color: blue;
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+.vnav .active {
+    background-color: orange;
+    color: white;
+}
+
+.hnav {
+    display: flex;
+}
+
+.hnav .item {
+    background-color: #d3d3d3;
+    color: blue;
+    width: 100px;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.hnav .active {
+    background-color: #808080;
+    color: white;
+}
+
+.hnav .item:nth-child(n+1):nth-child(-n+4) {
+    border-right: 1px solid blue;
+}

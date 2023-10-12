@@ -1,0 +1,50 @@
+table {
+    background-color: #96d4d3;
+    width: 500px;
+    height: 100px;
+    padding: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    width: 120px;
+    height: 90px;
+    border: 3px solid green;
+}
+
+.c2, .c4 {
+    border-radius: 10px;    
+}
+
+.c3, .c6 {
+    border-radius: 20px;    
+}
+
+.c5, .c8 {
+    border-radius: 5px;
+}
+
+.c7 {
+    margin: auto 0px;
+    height: 80px;
+    border-radius: 60%;
+}
+
+.c9 {
+    border-radius: 5px 20px 10px 40px ;
+}
